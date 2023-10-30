@@ -27,4 +27,5 @@ Erklären Sie hier, wie man `pre-commit` installiert.
   --cov-report=xml -> Die Code-Coverage Berichte werden im XML-Format erstellt.  
   Quelle: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
 ## Aufgabe 4
-Erklären Sie hier, wie Sie das Passwort aus Ihrer lokalen `.env` auf Azure übertragen.
+Erklären Sie hier, wie Sie das Passwort aus Ihrer lokalen `.env` auf Azure übertragen.  
+https://tagebbuch.azurewebsites.net/

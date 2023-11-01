@@ -26,6 +26,12 @@ Erklären Sie hier, wie man `pre-commit` installiert.
   --cov=com ->  Die Code-Coverage-Berechnung mit pytest-cov wird aktiviert und "com" ist das Verzeichnis in dem die Code-Coverage Berichte erstellt werden.  
   --cov-report=xml -> Die Code-Coverage Berichte werden im XML-Format erstellt.  
   Quelle: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
-## Aufgabe 4
-Erklären Sie hier, wie Sie das Passwort aus Ihrer lokalen `.env` auf Azure übertragen.  
-https://tagebbuch.azurewebsites.net/
+## Aufgabe 4  
+  Der Link: https://tagebbuch.azurewebsites.net/
+  Erklären Sie hier, wie Sie das Passwort aus Ihrer lokalen `.env` auf Azure übertragen:
+  Ich habe mich dazu entschieden eine Azure Key Vault-Instanz zu erstellen um das Passwort zu speichern. Dazu muss man zuerst in Azure nach "Key Vault" suchen und da kann man eine neue Instanz erstellen. Dort 
+  habe ich folgendes ausgefüllt:  
+![image](https://github.com/NinaWoesten/WoestenNinaLB-324/assets/105288781/4027971b-0916-46d4-93d2-922df9ad2815)  
+  Nach einer kurzen Wartezeit sollte die Instanz erstellt sein und man kann nun ein "Secret" zur Instanz hinzufügen. Ich musste mir dafür noch die Berechtigung unter "Access control (IAM)" zuteilen. Dazu habe      ich mir einfach die Rolle vom Key Vault Administrator gegeben. Um ein "Secret" zu erstellen muss man nur den Namen eingeben also in dem Fall "PASSWORD" und das Passwort selber sprich "hallihallo".
+
+

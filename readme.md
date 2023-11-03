@@ -43,18 +43,8 @@ Erklären Sie hier, wie man `pre-commit` installiert.
   Dazu muss man in der eben erstellten Instanz auf "Secrets" gehen und dort eine neues Secret erstellen. Jetzt muss man dem Geheimnis einen Namen geben (PASSWORD) und dann den Wert des Passworts (hallihallo) 
   definieren. Und auf "Create" klicken. 
 
+  ### Schritt 4: Secret-ID 
+  Nachdem das Secret erfolgreich erstellt wurde, muss man sich nur noch die Secret-ID aufschreiben, um darauf in der Anwendung zugreifen zu können.
 
-
-Schritt 4: Verwendung der Geheimnis-ID in Ihrer Anwendung
-
-Nachdem Sie das Geheimnis erfolgreich in Azure Key Vault erstellt haben, müssen Sie die Geheimnis-ID notieren, um darauf in Ihrer Anwendung zuzugreifen. In Ihrer Anwendung können Sie die Azure Key Vault SDKs oder Bibliotheken verwenden, um auf das Geheimnis anhand seiner ID zuzugreifen.
-
-Die Umgebungsvariablen, die Sie in Ihrer Anwendung verwenden, sollten auf die Geheimnis-ID und nicht auf das tatsächliche Passwort verweisen.
-
-
-  Ich habe mich dazu entschieden eine Azure Key Vault-Instanz zu erstellen um das Passwort zu speichern. Dazu muss man zuerst in Azure nach "Key Vault" suchen und da kann man eine neue Instanz erstellen. Dort 
-  habe ich folgendes ausgefüllt:  
-
-  Nach einer kurzen Wartezeit sollte die Instanz erstellt sein und man kann nun ein "Secret" zur Instanz hinzufügen. Ich musste mir dafür noch die Berechtigung unter "Access control (IAM)" zuteilen. Dazu habe ich mir einfach die Rolle vom Key Vault Administrator gegeben. Um ein "Secret" zu erstellen muss man nur den Namen eingeben also in dem Fall "PASSWORD" und das Passwort selber sprich "hallihallo".
 
 

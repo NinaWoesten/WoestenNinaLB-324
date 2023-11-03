@@ -13,13 +13,14 @@
     <a href="/logout">Logout</a>
     <form method="POST" action="/add_entry">
         <textarea name="content" rows="4" cols="50" placeholder="Write your entry here..."></textarea>
+        <textarea name="happiness" rows="1" cols="30" placeholder="Enter your mood here..."></textarea>
         <br>
         <button type="submit">Add Entry</button>
     </form>
     <h2>Entries:</h2>
     <ul>
         {% for entry in entries %}
-        <li>{{ entry.timestamp.strftime('%Y-%m-%d %H:%M:%S') }} - {{ entry.content }}</li>
+        <li>{{ entry.timestamp.strftime('%Y-%m-%d %H:%M:%S') }} - {{ entry.content }} - {{ entry.happiness }}</li>
         {% endfor %}
     </ul>
 

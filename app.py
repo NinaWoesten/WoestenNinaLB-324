@@ -15,6 +15,7 @@ entries = []
 @dataclass
 class Entry():
     content: str
+    happiness: str
     timestamp: datetime = datetime.now()
 
 

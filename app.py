@@ -15,6 +15,7 @@ entries = []
 @dataclass
 class Entry():
     content: str
+    happiness: str
     timestamp: datetime = datetime.now()
 
 
@@ -48,7 +49,7 @@ def add_entry():
     content = request.form.get('content')
     happiness = request.form.get('happiness') 
     if content:
-        entry = Entry(content=content, hapiness=happiness)
+        entry = Entry(content=content, happiness='😃')
         entries.append(entry)
     return redirect(url_for('index'))
 

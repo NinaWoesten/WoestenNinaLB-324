@@ -48,7 +48,7 @@ def add_entry():
     content = request.form.get('content')
     happiness = request.form.get('happiness') 
     if content:
-        entry = Entry(content=content, happiness=happiness)
+        entry = Entry(content=content, happiness=None)
         entries.append(entry)
     return redirect(url_for('index'))
 

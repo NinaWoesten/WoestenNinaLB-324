@@ -26,6 +26,9 @@ Erklären Sie hier, wie man `pre-commit` installiert.
   --cov=com ->  Die Code-Coverage-Berechnung mit pytest-cov wird aktiviert und "com" ist das Verzeichnis in dem die Code-Coverage Berichte erstellt werden.  
   --cov-report=xml -> Die Code-Coverage Berichte werden im XML-Format erstellt.  
   Quelle: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
+  Beispiel:  
+  ![Screenshot 2023-11-03 124853](https://github.com/NinaWoesten/WoestenNinaLB-324/assets/105288781/2cec6f08-2609-417f-94a9-c4246d715bb5)
+
 ## Aufgabe 4  
   Der Link: https://tagebbuch.azurewebsites.net/  
   Erklären Sie hier, wie Sie das Passwort aus Ihrer lokalen `.env` auf Azure übertragen:  

@@ -19,6 +19,8 @@ Erklären Sie hier, wie man `pre-commit` installiert.
 ```
 ### Schritt 4:
   Wenn alle Hooks erfolgreich ausgeführt worden sind, kann man die Änderungen manuell comitten und pushen. 
+
+  
 ## Aufgabe 3
   pytest test_app.py -> führt Pytest aus um die Testfälle in der test_app.py Datei durchzuführen.  
   --doctest-modules -> Damit führt Pytest Doctests aus.   
@@ -27,7 +29,8 @@ Erklären Sie hier, wie man `pre-commit` installiert.
   --cov-report=xml -> Die Code-Coverage Berichte werden im XML-Format erstellt.  
   Quelle: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
   Beispiel:  
-  ![Screenshot 2023-11-03 124853](https://github.com/NinaWoesten/WoestenNinaLB-324/assets/105288781/2cec6f08-2609-417f-94a9-c4246d715bb5)
+  ![Screenshot 2023-11-04 113933](https://github.com/NinaWoesten/WoestenNinaLB-324/assets/105288781/566582d9-e445-4a99-a341-354708235430)
+
 
 ## Aufgabe 4  
   Der Link: https://tagebbuch.azurewebsites.net/  
